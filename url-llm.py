@@ -21,7 +21,7 @@ for i in range(3):
 
 process_url_clicked = st.sidebar.button("Process URLs")
 main_placeholder = st.empty()
-api_key = "AIzaSyD4k8k0c3LDwcGmu1z8fbxQ8TOWxYU__-Q"
+api_key = "your api key"
 
 llm = ChatGooglePalm(google_api_key = api_key,temperature=0.5,max_tookens = 500)
 vector_file_path = "vector_index-1"
